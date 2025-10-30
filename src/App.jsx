@@ -36,6 +36,10 @@ export default function App() {
           element={
             <PrivateRoute>
               <Dashboard />
+              <h1 className="text-6xl">Admin Dashboard</h1>
+              <AdminDashboard />
+              <h1 className="text-6xl">User Dashboard</h1>
+              <UserDashboard />
             </PrivateRoute>
           }
         />
